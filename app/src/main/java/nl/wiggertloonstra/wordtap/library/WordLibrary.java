@@ -30,5 +30,4 @@ public class WordLibrary {
         index = (index + 1) % words.size();
         return newWord;
     }
-
 }

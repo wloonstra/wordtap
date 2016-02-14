@@ -19,7 +19,6 @@ public class WordTap extends AppCompatActivity {
     }
 
     private void styleTextSize() {
-        View globalContainer = findViewById(R.id.global_container);
         TextView wordContainer = (TextView) findViewById(R.id.word_container);
         wordContainer.setTextSize(60);
     }
